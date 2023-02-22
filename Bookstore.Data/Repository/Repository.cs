@@ -12,7 +12,6 @@ namespace Bookstore.Data.Repository
     {
         private readonly DatabaseContext _db;
         internal DbSet<T> dbSet;
-
         public Repository(DatabaseContext db)
         {
             _db = db;
